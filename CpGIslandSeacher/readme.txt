@@ -1,12 +1,19 @@
-README (added at UCSC)
+README (added at UCSC, update by Jian-Hong Sun)
 
+Step 1 Compile:
 "make" --> gcc readseq.c cpg_lh_new.c -o cpglh_new.exe
 
+Step 2 run:
+for sigle inputfile:
+	run: >cpgTest.exe inputfile(*.fasta format)
+	Note: The output directory of this program has been set to "D: \ resutls \"
+	         (you can change the 109 lines of cpg_lh_new.c)
 
-run: >cpgTest.exe inputfile(*.fasta format)
-Note: The output directory of this program has been set to "D: \ resutls \"
-	(you can change the 109 lines of cpg_lh_new.c)
+for batch file processing(highly recommended):
+	use .bat file (E.g: CpGIslandSeacher.bat , E.g: CpGIslandSeacher2.bat, E.g: CpGIslandSeacher3.bat)
+	Note: The list of file names written in "name.txt", all the inputfile are placed in same folder with the program
 
+############################################################################################
 We've been running this on hard-masked sequence (RepeatMasker and TRF 
 with period <= 12 results are masked to 'N') in order to avoid CpG 
 islands in Alu repeats in human.
