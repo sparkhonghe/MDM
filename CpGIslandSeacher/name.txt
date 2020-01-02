@@ -1,0 +1,5 @@
+Arabidopsis_chr1.fasta
+Arabidopsis_chr2.fasta
+Arabidopsis_chr3.fasta
+Arabidopsis_chr4.fasta
+Arabidopsis_chr5.fasta
