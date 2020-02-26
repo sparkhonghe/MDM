@@ -11,4 +11,4 @@ Step 2: "CpGIslandSeacher", "CpGsland_ Results_Sta" and "NCpGM motif finder" for
           
           3. Results_2 - Results_1 = Supplementary Table 5(Table 3)
           
-Sorry, the program is not easy to understand. We are rewriting this code in  Python. The rewritten code will be very concise and easy to understand, and we will release it soon.
+Sorry, the program is not easy to understand. We are rewriting this code in  Python. The rewritten code will be very concise and easy to understand, and we will release it in the next step research.
